@@ -4,3 +4,101 @@
     padding: 0;
     margin: 0;
 }
+body{
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* debug */
+/* header */
+.debug header{
+    height: 550px;
+}
+
+/* main */
+.debug main{
+    height: 800px;
+}
+
+/* footer */
+.debug footer{
+    height: 200px;
+}
+
+/* classi utility */
+.blu{
+    background-color: #0C325A;
+}
+.verde{
+    background-color: #7CBB02;
+}
+.grigio{
+    background-color: #D3D3D3;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.bottone{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.vuoto{
+    border: 1px solid white;
+    padding: 8px 24px;
+}
+.pieno{
+    padding: 8px 24px;
+    background-color: yellowgreen;
+}
+
+/* header */
+#header{
+    height: 550px;
+}
+#header nav{
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.logo, .menu_sx, .menu_dx{
+    float: left;
+}
+.logo{
+    width: 15%;
+    margin-top: 10px;
+}
+.menu_sx{
+    width: 45%;
+}
+.menu_sx ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu_sx ul li a{
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.menu_dx{
+    width: 40%;
+    text-align: right;
+}
+.menu_dx ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu_dx ul li a{
+    text-transform: uppercase;
+}
