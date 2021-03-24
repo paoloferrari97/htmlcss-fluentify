@@ -180,6 +180,17 @@ body{
     font-size: 24px;
     font-weight: 600;
 }
+.titolo_colonna::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 75px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
 .scritte_colonna{
     height: 40%;
     color: grey;
