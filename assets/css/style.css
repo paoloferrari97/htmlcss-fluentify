@@ -199,3 +199,37 @@ body{
 .colonna1, .colonna2{
     margin-right: 2%;
 }
+hr{
+    background-color: grey;
+}
+.immagine_scritta{
+    height: 480px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.immagine_scritta div{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.immagine_scritta div img{
+    width: 100%;
+}
+.scritta_main_fine div{
+    width: 100%;
+    padding-left: 100px;
+}
+.scritta_main_titolo{
+    font-size: 35px;
+    font-weight: 600;
+}
+.scritta_main_sottotitolo{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link_scritta_main{
+    font-size: 20px;
+}
