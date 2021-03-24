@@ -46,22 +46,33 @@ body{
     clear: both;
 }
 .bottone{
-    padding: 10px 20px;
     border-radius: 5px;
     margin: 0 10px;
 }
 .vuoto{
-    border: 1px solid white;
     padding: 8px 24px;
+    border: 1px solid white;
 }
 .pieno{
     padding: 8px 24px;
-    background-color: yellowgreen;
+    border: 1px solid #7CBB02;
+}
+.bottone.vuoto:hover{
+    background-color: #7CBB02;
+    border: 1px solid #7CBB02;
+}
+.bottone.pieno:hover{
+    background-color: #0C325A;
+    border: 1px solid white;
 }
 
 /* header */
 #header{
     height: 550px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 120% 110%;
 }
 #header nav{
     height: 70px;
@@ -71,7 +82,7 @@ body{
 #header a{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
 }
 .logo, .menu_sx, .menu_dx{
     float: left;
