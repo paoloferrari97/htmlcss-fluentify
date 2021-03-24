@@ -154,3 +154,37 @@ body{
     color: grey;
     margin-top: 10px;
 }
+.tre_colonne{
+    height: 480px;
+}
+.colonna{
+    width: 32%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.colonna img{
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenitore_immagine_colonna{
+    position: relative;
+    height: 40%;
+}
+.titolo_colonna{
+    height: 20%;
+    color: #7CBB02;
+    font-size: 20px;
+    font-weight: 600;
+}
+.scritte_colonna{
+    height: 40%;
+    color: grey;
+    font-size: 15px;
+}
+.colonna1, .colonna2{
+    margin-right: 2%;
+}
