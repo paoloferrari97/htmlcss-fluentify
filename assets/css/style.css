@@ -113,3 +113,21 @@ body{
 .menu_dx ul li a{
     text-transform: uppercase;
 }
+.scritte_header{
+    height: 470px;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+}
+#header .scritte_header a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin-left: 0;
+}
+#paragrafo_header{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
