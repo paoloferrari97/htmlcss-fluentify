@@ -40,6 +40,13 @@ body{
     padding: 8px 24px;
     border: 1px solid #7CBB02;
 }
+.pieno2{
+    padding: 20px 15px;
+    border: 1px solid #7CBB02;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
 .bottone.vuoto:hover{
     background-color: #7CBB02;
     border: 1px solid #7CBB02;
@@ -47,6 +54,11 @@ body{
 .bottone.pieno:hover{
     background-color: #0C325A;
     border: 1px solid white;
+}
+.bottone.pieno2:hover{
+    background-color: #D3D3D3;
+    border: 1px solid #7CBB02;
+    color: #7CBB02;
 }
 
 /* header */
@@ -221,25 +233,41 @@ hr{
 /* footer */
 footer > div{
     width: 100%;
-    height: 150px;
-}
-.struttura_piano, .visualizza_piano{
-    width: 50%;
-    height: 100%;
-    float: left;
+    height: 200px;
 }
 .struttura_piano{
-    position: relative;
+    width: 30%;
+    height: 200px;
+    float: left;
 }
 .struttura_piano p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    line-height: 200px;
+    vertical-align: middle;
     font-size: 30px;
     font-weight: 600;
 }
 .visualizza_piano{
-    
+    color: grey;
+    text-align: right;
+    font-size: 20px;
+    width: 70%;
+    float: left;
+    height: 200px;
+    position: relative;
+}
+.visualizza_piano > div{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#seleziona{
+    border-bottom: 1px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#seleziona:after {
+    padding-left: 50px;
+    content: ' \25BE';
 }
