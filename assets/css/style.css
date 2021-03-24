@@ -177,13 +177,13 @@ body{
 .titolo_colonna{
     height: 20%;
     color: #7CBB02;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 .scritte_colonna{
     height: 40%;
     color: grey;
-    font-size: 15px;
+    font-size: 18px;
 }
 .colonna1, .colonna2{
     margin-right: 2%;
